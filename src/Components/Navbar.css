@@ -1,0 +1,49 @@
+.main
+{
+    display: flex;
+    flex-direction: column;
+}
+.Header
+{
+    background-color: white;
+    
+}
+.search
+{
+    float:left;
+}
+.logo
+{
+    float: center;  
+    width: 300px;
+    height: 60px;
+}
+.search
+{
+    float:right;
+}
+.nav1
+{
+    background-color:white;
+    float: center;
+}
+
+.nav2
+{
+    color: white;
+    border: width 3%;
+    border-color: rgb(104, 94, 86);
+    background-color: rgb(83, 81, 74);
+    float: center;
+}
+
+.link1
+{
+    color: black;
+    text-decoration: none;
+}
+.link
+{
+    color: white;
+    text-decoration: none;
+}
