@@ -1,27 +1,38 @@
 .App {
   text-align: center;
+  background-color: rgb(247, 241, 241);
+}
+
+body {
+  background: rgb(2,0,36);
+  background-image: linear-gradient( 109.6deg, rgb(238, 105, 17) 11.2%, rgba(110,123,251,1) 91.1% );
+}
+text {
+    color:rgb(240, 237, 237)
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  background-color: rgb(252, 249, 249);
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    background-color: rgb(250, 242, 242);
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: linear-gradient(red, yellow);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(240, 237, 237);
 }
 
 .App-link {
@@ -35,4 +46,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sc-text-color{
+  color: yellow;
+  font-style: italic;
+}
+
+.shopping-card {
+  justify-content: space-between;
+  background-image: linear-gradient(red, yellow);
+  padding: 20px 30px;
+}
+
+.product-item {
+  padding: 40px;
 }
