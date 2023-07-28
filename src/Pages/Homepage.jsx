@@ -1,4 +1,4 @@
-import { Stack,Image,Text,Card,CardBody,Heading} from '@chakra-ui/react';
+import { Stack,Image,Text,Card,CardBody,Heading,Grid} from '@chakra-ui/react';
 import React from 'react';
 import {Link} from 'react-router-dom';
 import Footer from '../Components/Footer';
@@ -13,26 +13,44 @@ const Homepage= () =>
              src='https://ii1.pepperfry.com/assets/2e36357a-2805-48ed-ae6b-eed4e4cef460.jpg'
              alt='Dan Abramov'
             />
-            <Stack direction='row'>
-                <Image
-                boxSize='auto'
-                objectFit='cover'
-                src='https://ii1.pepperfry.com/assets/359d1cca-66e0-4a0a-98ac-b781a4bc61e5.jpg'
-                alt='Dan Abramov'
-                />
-                <Image
-                pos='relative'
-                boxSize='auto'
-                objectFit='cover'
-                src='https://ii1.pepperfry.com/assets/359d1cca-66e0-4a0a-98ac-b781a4bc61e5.jpg'
-                />
-                <Image
-                pos='relative'
-                boxSize='auto'
-                objectFit='cover'
-                src='https://ii1.pepperfry.com/assets/359d1cca-66e0-4a0a-98ac-b781a4bc61e5.jpg'
-                />
-            </Stack>
+            <Grid spacing={4} templateColumns= {{sm:"repeat(2,1Fr)",md:"repeat(2,1Fr)",lg:"repeat(4,1Fr)"}}>
+                <Card maxW='md' bg='white'>
+                    <CardBody>
+                        <Image
+                        src='https://ii2.pepperfry.com/assets/9c01fff8-95e8-4625-8e34-aa6f888bcb1f.jpg'
+                        alt='Green double couch with wooden legs'
+                        borderRadius=''
+                        />
+                    </CardBody>
+                </Card>
+                <Card maxW='md' bg='white'>
+                    <CardBody>
+                        <Image
+                        src='https://ii2.pepperfry.com/assets/317eb9a1-7660-4649-8e5b-5ebe5efa60c9.jpg'
+                        alt='Box Storage Queen Size Beds'
+                        borderRadius=''
+                        />
+                    </CardBody>
+                </Card>
+                <Card maxW='md' bg='white'>
+                    <CardBody>
+                        <Image
+                        src='https://ii2.pepperfry.com/assets/58b23241-c008-4d17-a062-2520652d7469.jpg'
+                        alt='Green double couch with wooden legs'
+                        borderRadius=''
+                        />
+                    </CardBody>
+                </Card>
+                <Card maxW='md' bg='white'>
+                    <CardBody>
+                        <Image
+                        src='https://ii2.pepperfry.com/assets/9c01fff8-95e8-4625-8e34-aa6f888bcb1f.jpg'
+                        alt='Green double couch with wooden legs'
+                        borderRadius=''
+                        />
+                    </CardBody>
+                </Card>
+            </Grid>
             <Image
              boxSize='auto'
              objectFit='cover'
@@ -40,7 +58,7 @@ const Homepage= () =>
              alt='Dan Abramov'
             />
             <Text textAlign='center' as='b' color='#9C4221' fontSize='3xl' >Explore Most Wanted</Text>
-            <Stack direction='row'>
+            <Grid spacing={4} templateColumns= {{sm:"repeat(2,1Fr)",md:"repeat(2,1Fr)",lg:"repeat(4,1Fr)"}}>
                 <Card maxW='md' bg='white'>
                     <CardBody>
                         <Image
@@ -85,10 +103,25 @@ const Homepage= () =>
                             </Text>
                         </Stack>
                     </CardBody>
+                </Card>
+                <Card maxW='md' bg='white'>
+                    <CardBody>
+                        <Image
+                        src='https://ii3.pepperfry.com/assets/eb18ca82-fcd4-42c3-a3a6-96d1e73af035.jpg'
+                        alt='Green double couch with wooden legs'
+                        borderRadius=''
+                        />
+                        <Stack mt='6' spacing='3'>
+                            <Heading size='md' color='#2D3748'>Modern TV Units</Heading>
+                            <Text  color='#2D3748'>
+                                Sleek, Space Saving & Practical
+                            </Text>
+                        </Stack>
+                    </CardBody>
                 </Card>    
-            </Stack>
+            </Grid>
             <Text textAlign='center' as='b' color='#9C4221' fontSize='3xl' >Discover Our Newest Arrivals</Text>
-            <Stack direction='row'>
+            <Grid spacing={4} templateColumns= {{sm:"repeat(2,1Fr)",md:"repeat(2,1Fr)",lg:"repeat(4,1Fr)"}}>
                 <Card maxW='sm' bg='white'>
                     <CardBody>
                         <Image
@@ -149,12 +182,12 @@ const Homepage= () =>
                         </Stack>
                     </CardBody>
                 </Card>   
-            </Stack>
+            </Grid>
 
 
 
             <Text textAlign='center' as='b' color='#9C4221' fontSize='3xl' >Follow Home Interior Trends</Text>
-            <Stack direction='row'>
+            <Grid spacing={4} templateColumns= {{sm:"repeat(2,1Fr)",md:"repeat(3,1Fr)",lg:"repeat(3,1Fr)"}}>
                 <Card maxW='md' bg='white'>
                     <CardBody>
                         <Image
@@ -200,7 +233,7 @@ const Homepage= () =>
                         </Stack>
                     </CardBody>
                 </Card>    
-            </Stack>
+            </Grid>
 
 
 
@@ -208,7 +241,7 @@ const Homepage= () =>
 
 
             <Text textAlign='center' as='b' color='#9C4221' fontSize='3xl' >Check Out These Collections</Text>
-            <Stack direction='row'>
+            <Grid spacing={4} templateColumns= {{sm:"repeat(2,1Fr)",md:"repeat(3,1Fr)",lg:"repeat(3,1Fr)"}}>
                 <Card maxW='md' bg='white'>
                     <CardBody>
                         <Image
@@ -254,7 +287,7 @@ const Homepage= () =>
                         </Stack>
                     </CardBody>
                 </Card>    
-            </Stack>
+            </Grid>
             <br/>
             <br />
             <br />
@@ -280,6 +313,30 @@ const Homepage= () =>
             <br />
             <br />
             <br/>
+            <br />
+            <br />
+            <br/>
+            <br />
+            <br />
+            <br/>
+            <br />
+            <br />
+            <br/>
+            <br />
+            <br />
+            <br/>
+            <br />
+            <br />
+            <br />
+            <br/>
+            <br />
+            <br />
+            <br/>
+            <br />
+            <br />
+            <br/>
+            <br />
+        
               
             <Footer/>
         </Stack>
