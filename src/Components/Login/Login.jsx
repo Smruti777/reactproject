@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './Login.css'; // Import the CSS styles
 import {Navigate, useNavigate} from "react-router-dom";
+import {Link} from 'react-router-dom';
 import axios from 'axios';
 
 const LoginPage = ({setLoginUser}) => {
