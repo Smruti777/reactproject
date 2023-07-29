@@ -14,7 +14,7 @@ return (
 	<h1 style={{ color: "#DD6B20",
 				textAlign: "center",
 				marginTop: "-50px" }}>
-	Pepperfry: Happy furniture to you (:  !!!
+	CASA LIVING: Happy furniture to you (:  !!!
 	</h1>
 	<Container>
 		<Row>
