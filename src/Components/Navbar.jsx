@@ -11,10 +11,10 @@ const Navbar=() =>
                 <Text textAlign='center' as='mark' bg='#FC8181' color='white' fontSize='5xl' ><Text as='i'>CASA LIVING</Text></Text>
             </Box>
             <div className='nav1'>
-                <Link className='link1' to="#">Sell on Casa Living</Link>&nbsp; &nbsp; &nbsp; &nbsp;
-                <Link className='link1' to="#">Become a Franchisee</Link>&nbsp; &nbsp; &nbsp; &nbsp;
-                <Link className='link1' to="#">Buy in Bulk</Link>&nbsp; &nbsp; &nbsp; &nbsp;
-                <Link className='link1' to="#">Get Inspired</Link> 
+                <Link className='link1' to="#">Find A Studio</Link>&nbsp;&nbsp;
+                <Link className='link1' to="#">Get Inspired</Link>&nbsp;&nbsp;  
+                <Link className='link1' to="#">Contact us</Link>&nbsp; &nbsp; &nbsp; &nbsp;
+
             </div>
             <div className='nav2'>
                 <Link className='link' to="/">Home</Link>&nbsp; &nbsp; &nbsp; &nbsp;
